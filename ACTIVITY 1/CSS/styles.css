@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@300;400;700&display=swap');
+
+html {
+  position: relative;
+  min-height: 100%;
+  font-size: 16px;
+  font-family: Roboto, sans-serif;
+}
+
+body {
+  margin: 30px 100px;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+h2 {
+  padding: 0;
+}
+
+.header, .header-info {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  width: 40rem;
+  margin: 20px 20px;
+  padding: 40px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba (0, 0, 0, 0.3);
+  border-radius: 20px;
+}
+
+.i-card {
+  width: 88rem;
+  margin: 20px 20px;
+  padding: 40px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba (0, 0, 0, 0.3);
+  border-radius: 20px;
+}
+
+.card h2,
+.container h2 {
+  text-align: center;
+  margin-bottom: 40px;
+  margin-top: 0px;
+}
+
+.pLang ul {
+  list-style: none;
+  padding: 0;
+}
+
+.hobbies ol li {
+  margin-bottom: 10px;
+}
+
+.pLang ul li {
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.pLang ul .cs {
+  background-color: #512bd4;
+  color: white;
+}
+
+.pLang ul .kt {
+  background-color: #E24462;
+  color: white;
+}
+
+.pLang ul .js {
+  background-color: #F0DB4F;
+}
+
+.pLang ul .pyc {
+  background-color: green;
+  color: white;
+}
+
+img {
+  width: 100%;
+}
+
+.t-card {
+  width: 88rem;
+  margin: 20px 20px;
+  padding: 40px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba (0, 0, 0, 0.3);
+  border-radius: 20px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table caption {
+  margin-bottom: 16px;
+}
+
+td,th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
