@@ -32,6 +32,7 @@ body {
 .form form h1 {
   margin-top: 0;
   margin-bottom: 32px;
+  color: #083D77;
 }
 
 .form form input {
@@ -64,7 +65,7 @@ body {
 }
 
 .form form .submit-btn {
-  background-color: #262730;
+  background-color: #083D77;
   color: white;
   width: 30%;
   height: 40px;
