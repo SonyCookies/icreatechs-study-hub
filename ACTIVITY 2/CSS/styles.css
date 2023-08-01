@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@300;400;700&display=swap');
+
+html {
+  position: relative;
+  min-height: 100%;
+  font-size: 16px;
+  font-family: Roboto, sans-serif;
+}
+
+body {
+  margin: 30px 100px;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.form {
+  width: 40rem;
+  margin: 20px 20px;
+  padding: 40px;
+  padding-right: 60px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba (0, 0, 0, 0.3);
+  border-radius: 20px;
+}
+
+.form form h1 {
+  margin-top: 0;
+  margin-bottom: 32px;
+}
+
+.form form input {
+  width: 50%;
+  height: 16px;
+  font-size: 16px;
+  padding: 8px;
+}
+
+.form form input,
+.form form textarea {
+  display: block;
+  margin-bottom: 16px;
+  border-radius: 4px;
+  border-width: 1px;
+}
+
+.form form textarea {
+  width: 100%;
+  height: 100px;
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  padding: 8px;
+}
+
+.form form label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.form form .submit-btn {
+  background-color: #262730;
+  color: white;
+  width: 30%;
+  height: 40px;
+  border: none;
+  border-radius: 4px;
+  margin: 0;
+  margin-top: 32px;
+}
+
+.container .form form .sex,
+.container .form form .pLang {
+  display: inline;
+  width: 20px;
+}
+
+.radio-container,
+.checkbox-container {
+  display: flex;
+  align-items: center;
+}
+
+.radio-container .label, 
+.checkbox-container .label {
+  font-weight: normal;
+}
+
+.radio-container input,
+.checkbox-container input {
+  margin-right: 8px;
+}
+
+.sex-container,
+.pLang-container {
+  margin-bottom: 16px;
+}
