@@ -4,7 +4,7 @@ html {
   position: relative;
   min-height: 100%;
   font-size: 16px;
-  font-family: Roboto, sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 body {
@@ -130,4 +130,14 @@ body {
 .sex-container,
 .pLang-container {
   margin-bottom: 16px;
+}
+
+.form,
+.form-login {
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.form:hover,
+.form-login:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
 }

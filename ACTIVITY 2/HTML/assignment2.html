@@ -1,77 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="/ACTIVITY 2/CSS/styles.css">
-  <title>HTML Forms Assignment</title>
-</head>
-<body>
-  <!-- Contact Us -->
-  <div class="container">
-    <div class="form">
-      <form action="#" method="post">
-        <h1>Contact Us</h1>
-        <label>Name: </label><input type="text">
-        <label>Email:</label><input type="email">
-        <label>Message:</label><textarea>Leave a message....</textarea>
-        <input type="submit" value="Submit" class="submit-btn">
-      </form>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/ACTIVITY 2/CSS/styles.css" />
+    <title>HTML Forms Assignment</title>
+  </head>
+  <body>
+    <!-- Contact Us -->
+    <div class="container">
+      <div class="form">
+        <form action="#" method="post">
+          <h1>Contact Us</h1>
+          <label>Name: </label><input type="text" /> <label>Email:</label
+          ><input type="email" /> <label>Message:</label
+          ><textarea placeholder="Leave a message..."></textarea>
+          <input type="submit" value="Submit" class="submit-btn" />
+        </form>
+      </div>
     </div>
-  </div>
-  <!-- Login -->
-  <div class="container">
-    <div class="form-login">
-      <form action="#" method="post">
-        <h1>Login</h1>
-        <label>Username: </label><input type="text">
-        <label>Password:</label><input type="password">
-        <input type="submit" value="Login" class="submit-btn">
-      </form>
+    <!-- Login -->
+    <div class="container">
+      <div class="form-login">
+        <form action="#" method="post">
+          <h1>Login</h1>
+          <label>Username: </label><input type="text" /> <label>Password:</label
+          ><input type="password" />
+          <input type="submit" value="Login" class="submit-btn" />
+        </form>
+      </div>
     </div>
-  </div>
-  <!-- Survey -->
-  <div class="container">
-    <div class="form">
-      <form action="#" method="post">
-        <h1>Survey</h1>
-        <label>Name: </label><input type="text">
-        <label>Age:</label><input type="number">
-        <label>Sex:</label>
-        <div class="sex-container">
-          <div class="radio-container">
-            <input class="sex" type="radio" name="gender" id="maleRadio"> 
-            <label for="maleRadio" class="label">Male</label>
+    <!-- Survey -->
+    <div class="container">
+      <div class="form">
+        <form action="#" method="post">
+          <h1>Survey</h1>
+          <label>Name: </label><input type="text" /> <label>Age:</label
+          ><input type="number" />
+          <label>Sex:</label>
+          <div class="sex-container">
+            <div class="radio-container">
+              <input class="sex" type="radio" name="gender" id="maleRadio" />
+              <label for="maleRadio" class="label">Male</label>
+            </div>
+            <div class="radio-container">
+              <input class="sex" type="radio" name="gender" id="femaleRadio" />
+              <label for="femaleRadio" class="label">Female</label>
+            </div>
           </div>
-          <div class="radio-container">
-            <input class="sex" type="radio" name="gender" id="femaleRadio"> 
-            <label for="femaleRadio" class="label">Female</label>
+          <label>Which programming languages do you know?</label>
+          <div class="pLang-container">
+            <div class="checkbox-container">
+              <input class="pLang" type="checkbox" id="kotlinCheck" />
+              <label for="kotlinCheck" class="label">Kotlin</label>
+            </div>
+            <div class="checkbox-container">
+              <input class="pLang" type="checkbox" id="csharpCheck" />
+              <label for="csharpCheck" class="label">C#</label>
+            </div>
+            <div class="checkbox-container">
+              <input class="pLang" type="checkbox" id="javascriptCheck" />
+              <label for="javascriptCheck" class="label">Javascript</label>
+            </div>
+            <div class="checkbox-container">
+              <input class="pLang" type="checkbox" id="pythonCheck" />
+              <label for="pythonCheck" class="label">Python</label>
+            </div>
           </div>
-        </div>
-        <label>Which programming languages do you know?</label>
-        <div class="pLang-container">
-          <div class="checkbox-container">
-            <input class="pLang" type="checkbox" id="kotlinCheck"> 
-            <label for="kotlinCheck" class="label">Kotlin</label>
-          </div>
-          <div class="checkbox-container">
-            <input class="pLang" type="checkbox" id="csharpCheck"> 
-            <label for="csharpCheck" class="label">C#</label>
-          </div>
-          <div class="checkbox-container">
-            <input class="pLang" type="checkbox" id="javascriptCheck"> 
-            <label for="javascriptCheck" class="label">Javascript</label>
-          </div>
-          <div class="checkbox-container">
-            <input class="pLang" type="checkbox" id="pythonCheck"> 
-            <label for="pythonCheck" class="label">Python</label>
-          </div>
-        </div>
-        <label>Comments:</label><textarea>Leave a comment....</textarea>
-        <input type="submit" value="Login" class="submit-btn">
-      </form>
+          <label>Comments:</label
+          ><textarea placeholder="Leave a comment..."></textarea>
+          <input type="submit" value="Login" class="submit-btn" />
+        </form>
+      </div>
     </div>
-  </div>
-  
-</body>
+  </body>
 </html>
